@@ -1,16 +1,71 @@
-h1{
-	margin: 0px;
-	width: 150px;
-	animation: animation;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-
+html{
+	 background-image: url(rearlights.jpeg);
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+	 background-attachment: fixed;
+	 font-family: helvetiva, arial, sans-serif;
 }
 
+header{
+	background: linear-gradient(to left, red, purple,violet,blue);
+	text-align: center;
+	padding: 50px;
 
+}
+header h1{
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	
+}
 
-@keyframes animation{
+header img{
+	border-radius: 150px;
+	width: 300px;
+	border:10px solid whitesmoke;
+}
 
-	50%{transform: rotate(360deg);
+body{
+	margin: 0px;
+	color: white;
+	font-size:20px;
+	line-height: 30px;
+}
 
+main{
+	max-width: 800px;
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	margin: 40px;
+	font-size: 35px;
+	color: red;
+}
+
+a{
+	color: darkred;
+}
+
+a:hover{
+	color: purple;
+	background-color: whitesmoke;
+}
+
+footer{
+	background: linear-gradient(to right, red,blue,orange);
+	margin: 0px;
+	padding: 0px;
+}
+
+p.p3{
+	font-style: italic;
+	color: mediumvioletred ;
 }
