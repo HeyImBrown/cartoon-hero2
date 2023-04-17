@@ -1,0 +1,16 @@
+h1{
+	margin: 0px;
+	width: 150px;
+	animation: animation;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes animation{
+
+	50%{transform: rotate(360deg);
+
+}
